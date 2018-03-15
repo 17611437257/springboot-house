@@ -1,0 +1,14 @@
+server:
+  port: ${port:8760}
+spring:
+  application:
+    name: springboot-house
+  mvc:
+    view:
+        prefix: /WEB-INF/JSP/
+        suffix: .jsp
+  datasource:
+    url:  jdbc:mysql://localhost:3306/house?useUnicode=true&characterEncoding=utf-8
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: root
